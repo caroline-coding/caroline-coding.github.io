@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Serif Pro', Georgia, serif;
+            font-size: 19px;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fafafa;
+            padding: 4rem 1.5rem;
+            min-height: 100vh;
+        }
+
+        main {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 3rem;
+        }
+
+        .projects {
+            list-style: none;
+        }
+
+        .projects li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .projects li:last-child {
+            border-bottom: none;
+        }
+
+        .projects a {
+            color: #b45309;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .projects a:hover {
+            color: #92400e;
+        }
+
+        .projects .desc {
+            color: #666;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Projects</h1>
+        <p class="subtitle">Experiments and side projects.</p>
+        <ul class="projects">
+            <li>
+                <a href="/taboo-game/">Taboo</a>
+                <span class="desc"> &mdash; a word-guessing party game</span>
+            </li>
+            <li>
+                <a href="/ridiculous-word-generator/">Ridiculous Word Generator</a>
+                <span class="desc"> &mdash; generates absurd word combinations</span>
+            </li>
+            <li>
+                <a href="/climate-website/">Climate Compensation Simulator</a>
+                <span class="desc"> &mdash; interactive climate spending scenarios</span>
+            </li>
+            <li>
+                <a href="/get-fit-2026/">Fitness Tracker</a>
+                <span class="desc"> &mdash; 12-week fitness challenge tracker</span>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
